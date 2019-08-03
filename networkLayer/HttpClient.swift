@@ -1,6 +1,6 @@
 //
 //  ServiceNetworkLayer.swift
-//  NetworkLayerPod
+//  NetworkLayer
 //
 //  Created by David Duarte on 14/12/2018.
 //  Copyright © 2018 David Duarte. All rights reserved.

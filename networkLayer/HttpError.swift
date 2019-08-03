@@ -1,6 +1,6 @@
 //
 //  HttpError.swift
-//  NetworkLayerPod
+//  NetworkLayer
 //
 //  Created by David Duarte on 15/01/2019.
 //

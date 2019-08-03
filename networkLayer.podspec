@@ -9,34 +9,27 @@
 Pod::Spec.new do |s|
   s.name             = 'networkLayer'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of networkLayer.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.summary          = 'NetworkLayer pod with Alamofire'
 
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/davidduarteflux/networkLayer'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/DavidDuarte22'
+
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'davidduarteflux' => 'david.duarte@fluxit.com.ar' }
-  s.source           = { :git => 'https://github.com/davidduarteflux/networkLayer.git', :tag => s.version.to_s }
+  s.author           = { 'DavidDuarte22' => 'davito.duarte.22@gmail.com' }
+  s.source           = { :git => 'https://github.com/DavidDuarte22/networkLayer.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
-  s.source_files = 'networkLayer/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'networkLayer' => ['networkLayer/Assets/*.png']
-  # }
+  s.dependency 'Alamofire', '4.8.0'
+
+  s.source_files = "networkLayer/**/*.{swift}"
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+
+  s.swift_version = "4.2"
 end

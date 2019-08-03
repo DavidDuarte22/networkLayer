@@ -1,6 +1,6 @@
 //
 //  HttpResponse.swift
-//  NetworkLayerPod
+//  NetworkLayer
 //
 //  Created by David Duarte on 16/01/2019.
 //
