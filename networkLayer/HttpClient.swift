@@ -16,8 +16,13 @@ public typealias APIFailureHandler = (Error, _ httpResponse: HttpResponse?) -> V
 
 public class HttpClient {
     
+    public static let shared = HttpClient() // Singleton de HttpClient, publico para poder acceder
+    
     private let sessionManager = SessionManager() // nos genera una sola instancia del session manager
-    public var useGlobalErrorHandler = true
+    
+    private init() {
+        
+    }
     
     // Ejecuta un post http
     public func callPost <T: Codable> (serviceUrl : String, parameters: Parameters, encoding: ParameterEncoding = JSONEncoding.default, headers: HTTPHeaders = [:], success: @escaping APISuccessHandler<T>, failure: APIFailureHandler? = nil) {

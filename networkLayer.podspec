@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'networkLayer'
-  s.version          = '0.1.0'
+  s.name             = 'NetworkLayer'
+  s.version          = '0.1.2'
   s.summary          = 'NetworkLayer pod with Alamofire'
 
   s.description      = <<-DESC
