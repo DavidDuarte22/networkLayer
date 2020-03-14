@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'NetworkLayer'
+  s.name             = 'networkLayer'
   s.version          = '0.1.3'
   s.summary          = 'NetworkLayer pod with Alamofire'
 
@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.dependency 'Alamofire', '4.8.0'
+  s.dependency 'Alamofire', '5.0.2'
 
   s.source_files = "networkLayer/**/*.{swift}"
 
