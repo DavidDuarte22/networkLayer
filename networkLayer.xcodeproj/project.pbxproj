@@ -12,6 +12,7 @@
 		03FD371622F5F386003718E7 /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FD371222F5F386003718E7 /* HttpClient.swift */; };
 		03FD372B22F5F910003718E7 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 03FD372A22F5F910003718E7 /* Podfile */; };
 		05A6BCB0956B0901A5147212 /* Pods_networkLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D10F7C9DDD787F2C3BC75C78 /* Pods_networkLayer.framework */; };
+		C3C1E1DF241D66CA0098D98B /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = C3C1E1DE241D66CA0098D98B /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		03FD372A22F5F910003718E7 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0EE77CE6461AEDE6DD6A6577 /* Pods-networkLayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-networkLayer.debug.xcconfig"; path = "Target Support Files/Pods-networkLayer/Pods-networkLayer.debug.xcconfig"; sourceTree = "<group>"; };
 		C3C1E1DD241D5D2C0098D98B /* networkLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = networkLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3C1E1DE241D66CA0098D98B /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		C9E193DB3480C59C08223C84 /* Pods-networkLayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-networkLayer.release.xcconfig"; path = "Target Support Files/Pods-networkLayer/Pods-networkLayer.release.xcconfig"; sourceTree = "<group>"; };
 		D10F7C9DDD787F2C3BC75C78 /* Pods_networkLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_networkLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -70,6 +72,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				C3C1E1DE241D66CA0098D98B /* LICENSE */,
 				03FD36FA22F5F2C9003718E7 /* networkLayer */,
 				03FD372A22F5F910003718E7 /* Podfile */,
 				03FD36FB22F5F2C9003718E7 /* networkLayer.h */,
@@ -152,6 +155,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3C1E1DF241D66CA0098D98B /* LICENSE in Resources */,
 				03FD372B22F5F910003718E7 /* Podfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
